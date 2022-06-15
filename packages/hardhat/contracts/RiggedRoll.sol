@@ -28,7 +28,7 @@ contract RiggedRoll is Ownable {
     }
     
     //Add riggedRoll() function to predict the randomness in the DiceGame contract and only roll when it's going to be a winner
-    function riggedRoll() public payable onlyOwner {
+    function riggedRoll() public payable  {
 
         uint256 amount = 2000000000000000;
 
