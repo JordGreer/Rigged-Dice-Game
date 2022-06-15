@@ -46,4 +46,6 @@ contract DiceGame {
     }
 
     receive() external payable {  }
+    
+    
 }
